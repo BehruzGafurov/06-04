@@ -1,0 +1,31 @@
+.footer {
+    text-align: center;
+    background-color: rgba(153, 153, 153, 0.1);
+    padding: 20px;
+    border-top: 1px solid rgba(153, 153, 153, 0.2);
+    transition: background 300ms ease-in-out;
+}
+
+.footer:hover {
+    background-color: rgba(153, 153, 153, 0.2);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    text-decoration: underline dashed;
+    color: #19376D;
+    font-size: 18px;
+    transition: color 300ms ease-in-out, text-decoration-color 300ms ease-in-out;
+}
+
+.footer a:hover {
+    color: #1452a0;
+    text-decoration-color: #1452a0;
+}
